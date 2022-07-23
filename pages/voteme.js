@@ -34,7 +34,7 @@ const Voteme = () => {
   return (
     <>
 
-    <Header title = "Voting Contest Organized by Video Creators Group" description="Invite Your friends and relatives to vote your group." image="/flirting2.jpg"/>
+    <Header title = "Voting Contest Organized by Video Creators Group" description="Invite Your friends and relatives to vote your group." image="/flirting3.jpg"/>
 
 
     {disab?<div className="mainbody">
