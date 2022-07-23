@@ -1,7 +1,8 @@
-import React, { useEffect, useRef, useState } from "react";
-import Modal from "./components/Modal";
+import React, { useState } from "react";
+
 
 import { useRouter } from "next/router";
+import Header from "./components/Header";
 
 // import "./components/Loader"
 
@@ -10,9 +11,7 @@ import { useRouter } from "next/router";
 const Voteme = () => {
   const history = useRouter();
   const [disab,setdisab] = useState(false);
-useEffect(()=>{
 
-}) 
   
   const handleOnclick = (e) => {
     var element = document.querySelector(".main_modal");
@@ -34,6 +33,10 @@ useEffect(()=>{
   }
   return (
     <>
+
+    <Header title = "Voting Contest Organized by Video Creators Group" description="Invite Your friends and relatives to vote your group." image="/flirting2.jpg"/>
+
+
     {disab?<div className="mainbody">
 
 </div>:""}
