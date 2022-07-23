@@ -76,7 +76,7 @@ const Voteme = () => {
           <div className="contentvote">
             <h4>
               <strong>
-                Total Vote : <span className="text-success">2000</span>
+                Total Vote : <span className="text-success">2283</span>
               </strong>
             </h4>
             <img src="/padok-img.jpg" alt="" />
@@ -92,7 +92,7 @@ const Voteme = () => {
           <div className="contentvote">
             <h4>
               <strong>
-                Total Vote : <span className="text-warning">1500</span>
+                Total Vote : <span className="text-warning">1567</span>
               </strong>
             </h4>
             <img src="/devil-img.jpg" alt="" />
@@ -112,7 +112,7 @@ const Voteme = () => {
           <div className="contentvote">
             <h4>
               <strong>
-                Total Vote : <span className="text-primary">1700</span>
+                Total Vote : <span className="text-primary">1773</span>
               </strong>
             </h4>
             <img src="/flirting.jpg" alt="" />
@@ -132,7 +132,7 @@ const Voteme = () => {
           <div className="contentvote">
             <h4>
               <strong>
-                Total Vote : <span className="text-danger">1200</span>
+                Total Vote : <span className="text-danger">1239</span>
               </strong>
             </h4>
             <img src="/rajendra.jpg" alt="" />
