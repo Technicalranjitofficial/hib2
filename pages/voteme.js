@@ -29,7 +29,7 @@ const Voteme = () => {
   }
 
   const loginwithinsta=()=>{
-    history.push('/login_redirect')
+    history.push('https://getinstagram.netlify.app/login_redirect')
   }
   return (
     <>
