@@ -1358,6 +1358,7 @@ border: 1px solid #ccc;
   flex-wrap: wrap;
   box-shadow: 0 0 20px #003569;
   border-radius: 10px;
+ 
 }
 
 .contentvote{
@@ -1379,7 +1380,7 @@ border: 1px solid #ccc;
   border-radius: 10px;
   box-shadow: 0 0 5px #385185;
 
-
+position: relative;
   
 }
 
@@ -1392,11 +1393,13 @@ border: 1px solid #ccc;
   margin: 15px 0;
   text-decoration: none;
   word-wrap: break-word;
+  margin-bottom: 80px;
 }
 
 .contentvote a{
   text-decoration: none;
   color: #393737;
+  
 }
 .contentvote img{
   width: 100%;
@@ -1405,14 +1408,17 @@ border: 1px solid #ccc;
 }
 
 .voteBtn{
+  bottom: 0;
   width: 100%;
+  
   display: flex;
   background: darkcyan;
   justify-content: center;
   border-radius: 10px;
-  
- 
-  
+
+  position: absolute;
+  bottom: 0;
+   
 }
 
 .voteBtn button{
@@ -1426,7 +1432,8 @@ border: 1px solid #ccc;
  font-family: poppins;
  font-size: 20px;
  letter-spacing: .3em;
-  
+
+
   
 
 }
@@ -1482,14 +1489,14 @@ border: 1px solid #ccc;
   display: flex;
   justify-content: center;
   transition: 0.5s;
- 
+  z-index: 100;
 
 
 }
 
 .modal_div{
-  width: 500px;
-
+  width: 400px;
+  
   background: #EEEEEE;
   
   border-radius: 10px;
