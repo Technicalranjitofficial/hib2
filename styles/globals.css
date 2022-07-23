@@ -1501,7 +1501,8 @@ position: relative;
   
   border-radius: 10px;
   box-shadow: 0 0 20px #003569;
-  
+margin-right: 10%;
+margin-left: 5%;
 
 }
 
@@ -1565,6 +1566,12 @@ position: relative;
   background: darkcyan;
 }
 
+.mod_mid p{
+  font-family: poppins;
+  font-size: 17px;
+  padding: 10px;
+  font-weight: 700;
+}
 .mod_bottom button{
   padding: 5px 10px;
   margin-right: 5px;
