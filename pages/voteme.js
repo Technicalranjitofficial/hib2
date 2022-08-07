@@ -164,7 +164,7 @@ const Voteme = () => {
           <div className="mesfot">
             <p>Total Participants : 4</p>
             <p>Total Cash Prize : 10k</p>
-            <p>Time Until : 28th july: 12PM </p>
+            <p>Time Until : 12th Augest: 12PM </p>
             <p>Organizer : Video Creators Group</p>
           </div>
           <div className="thankm">
