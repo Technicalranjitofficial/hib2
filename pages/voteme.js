@@ -147,10 +147,27 @@ const Voteme = () => {
               <button onClick={handleOnclick}>VOTE</button>
             </div>
           </div> 
-
-
-
+          
           <div className="contentvote">
+            <h4>
+              <strong>
+                Total Vote : <span className="text-danger">2989</span>
+              </strong>
+            </h4>
+            <img src="/ras.jpeg" alt="" />
+            <a href="https://www.instagram.com/prashmita_official_">
+              <p>
+                <strong>@rashmita_official_</strong>
+              </p>
+            </a>
+            <div className="voteBtn">
+              <button onClick={handleOnclick}>VOTE</button>
+            </div>
+          </div> 
+
+
+
+          {/* <div className="contentvote">
             <h4>
               <strong>
                 Total Vote : <span className="text-danger">2239</span>
@@ -166,7 +183,7 @@ const Voteme = () => {
               <button onClick={handleOnclick}>VOTE</button>
             </div>
           </div>
-          
+           */}
           
           <div className="contentvote">
             <h4>
