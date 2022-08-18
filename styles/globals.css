@@ -1673,4 +1673,34 @@ margin-left: 5%;
   width: auto;
   height: 40px;
   margin-right: 10px;
+
+}
+
+.formdiv{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.formdiv input{
+  margin-bottom: 10px;
+}
+
+.formdiv .btnc{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.btnc button{
+  width: 50%;
+}
+
+.pp{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
 }

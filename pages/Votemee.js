@@ -63,8 +63,13 @@ const Votemee = () => {
         // history('/note')
       }
     } catch (error) {
+      setLoader(true)
+      setVal(true)
+      
       console.log(error)
     }
+
+    setLoader(true)
     
   }
 
@@ -97,10 +102,13 @@ const Votemee = () => {
               <div className="two">
                 {loader?
                 <div>
-                  <form onSubmit={CheckCode}>
+                  <form className="formdiv" onSubmit={CheckCode}>
                   <input type="text" placeholder="Verification Code" name="code" onChange={handleOnchange}/>
+                  <div className="btnc">
+
                 <button type="submit">Check</button>
-                {val?<p>Code not matched!!!</p>:""}
+                  </div>
+                {val?<div className="pp"> <p>Code not matched!!!</p></div>:""}
                 </form>
                 </div>
                 
