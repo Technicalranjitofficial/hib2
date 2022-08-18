@@ -1667,3 +1667,10 @@ margin-left: 5%;
 
 
 }
+
+
+.two input{
+  width: auto;
+  height: 40px;
+  margin-right: 10px;
+}
