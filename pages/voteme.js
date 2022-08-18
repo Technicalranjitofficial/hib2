@@ -34,7 +34,7 @@ const Voteme = () => {
   return (
     <>
 
-    <Header title = "Voting Contest Organized by Video Creators Group" description="Invite Your friends and relatives to vote your group." image="/flirting5.jpg"/>
+    <Header title = "Voting Contest Organized by Video Creators Group" description="Invite Your friends and relatives to vote your group." image="/vote.jpg"/>
 
 
     {disab?<div className="mainbody">
@@ -76,7 +76,7 @@ const Voteme = () => {
           <div className="contentvote">
             <h4>
               <strong>
-                Total Vote : <span className="text-success">2283</span>
+                Total Vote : <span className="text-success">3283</span>
               </strong>
             </h4>
             <img src="/padok-img.jpg" alt="" />
@@ -92,7 +92,7 @@ const Voteme = () => {
           <div className="contentvote">
             <h4>
               <strong>
-                Total Vote : <span className="text-warning">1567</span>
+                Total Vote : <span className="text-warning">2567</span>
               </strong>
             </h4>
             <img src="/devil-img.jpg" alt="" />
@@ -112,7 +112,7 @@ const Voteme = () => {
           <div className="contentvote">
             <h4>
               <strong>
-                Total Vote : <span className="text-primary">1773</span>
+                Total Vote : <span className="text-primary">2773</span>
               </strong>
             </h4>
             <img src="/flirting.jpg" alt="" />
@@ -129,16 +129,55 @@ const Voteme = () => {
               <button onClick={handleOnclick}>VOTE</button>
             </div>
           </div>
+
+
           <div className="contentvote">
             <h4>
               <strong>
-                Total Vote : <span className="text-danger">1239</span>
+                Total Vote : <span className="text-danger">2839</span>
+              </strong>
+            </h4>
+            <img src="/pratima-cover.jpeg" alt="" />
+            <a href="https://www.instagram.com/praatimaa_____">
+              <p>
+                <strong>@praatimaa_____</strong>
+              </p>
+            </a>
+            <div className="voteBtn">
+              <button onClick={handleOnclick}>VOTE</button>
+            </div>
+          </div> 
+
+
+
+          <div className="contentvote">
+            <h4>
+              <strong>
+                Total Vote : <span className="text-danger">2239</span>
               </strong>
             </h4>
             <img src="/rajendra.jpg" alt="" />
             <a href="https://www.instagram.com/mr_rajendra_1439">
               <p>
                 <strong>@mr_rajendra_1439</strong>
+              </p>
+            </a>
+            <div className="voteBtn">
+              <button onClick={handleOnclick}>VOTE</button>
+            </div>
+          </div>
+          
+          
+          <div className="contentvote">
+            <h4>
+              <strong>
+                Total Vote : <span className="text-danger">2639</span>
+              </strong>
+            </h4>
+            <img src="/isha.jpeg" alt="" />
+            <a href="https://www.instagram.com/official_isha____">
+              <p>
+                <strong>@official_isha____</strong>
               </p>
             </a>
             <div className="voteBtn">
@@ -163,8 +202,8 @@ const Voteme = () => {
 
           <div className="mesfot">
             <p>Total Participants : 4</p>
-            <p>Total Cash Prize : 15k</p>
-            <p>Time Until : 12th Augest: 12PM </p>
+            <p>Total Cash Prize : <br/> First:  15k <br/> Second : 10k <br/> </p>
+            <p>Time Until : 12th Sept: 12PM </p>
             <p>Organizer : Video Creators Group</p>
           </div>
           <div className="thankm">
