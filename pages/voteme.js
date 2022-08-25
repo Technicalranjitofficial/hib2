@@ -92,17 +92,17 @@ const Voteme = () => {
           <div className="contentvote">
             <h4>
               <strong>
-                Total Vote : <span className="text-warning">2567</span>
+                Total Vote : <span className="text-warning">2767</span>
               </strong>
             </h4>
-            <img src="/devil-img.jpg" alt="" />
+            <img src="/mamata.jpeg" alt="" />
             <a
-              href="https://www.instagram.com/devil_girl_nilu
+              href="https://www.instagram.com/_mamata_098
 
 "
             >
               <p>
-                <strong>@devil_girl_nilu</strong>
+                <strong>@_mamata_098</strong>
               </p>
             </a>
             <div className="voteBtn">
