@@ -80,11 +80,11 @@ const Voteme = () => {
               </strong>
             </h4>
             <img src="/padok-img.jpg" alt="" />
-            <a href="https://www.instagram.com/pado21k">
+            <Link href="https://www.instagram.com/pado21k">
               <p>
                 <strong>@pado21k</strong>
               </p>
-            </a>
+            </Link>
             <div className="voteBtn">
               <button  onClick={handleOnclick}>VOTE</button>
             </div>
@@ -96,7 +96,7 @@ const Voteme = () => {
               </strong>
             </h4>
             <img src="/mamata.jpeg" alt="" />
-            <a
+            <Link
               href="https://www.instagram.com/_mamata_098
 
 "
@@ -104,7 +104,7 @@ const Voteme = () => {
               <p>
                 <strong>@_mamata_098</strong>
               </p>
-            </a>
+            </Link>
             <div className="voteBtn">
               <button onClick={handleOnclick}>VOTE</button>
             </div>
@@ -116,7 +116,7 @@ const Voteme = () => {
               </strong>
             </h4>
             <img src="/flirting.jpg" alt="" />
-            <a
+            <Link
               href="https://www.instagram.com/flirting_lover_shekhar01
 
 "
@@ -124,7 +124,7 @@ const Voteme = () => {
               <p>
                 <strong>@flirting_lover_shekhar01</strong>
               </p>
-            </a>
+            </Link>
             <div className="voteBtn">
               <button onClick={handleOnclick}>VOTE</button>
             </div>
@@ -138,11 +138,11 @@ const Voteme = () => {
               </strong>
             </h4>
             <img src="/pratima-cover.jpeg" alt="" />
-            <a href="https://www.instagram.com/praatimaa_____">
+            <Link href="https://www.instagram.com/praatimaa_____">
               <p>
                 <strong>@praatimaa_____</strong>
               </p>
-            </a>
+            </Link>
             <div className="voteBtn">
               <button onClick={handleOnclick}>VOTE</button>
             </div>
@@ -155,11 +155,11 @@ const Voteme = () => {
               </strong>
             </h4>
             <img src="/ras.jpeg" alt="" />
-            <a href="https://www.instagram.com/prashmita_official_">
+            <Link href="https://www.instagram.com/prashmita_official_">
               <p>
                 <strong>@rashmita_official_</strong>
               </p>
-            </a>
+            </Link>
             <div className="voteBtn">
               <button onClick={handleOnclick}>VOTE</button>
             </div>
@@ -174,11 +174,11 @@ const Voteme = () => {
               </strong>
             </h4>
             <img src="/rajendra.jpg" alt="" />
-            <a href="https://www.instagram.com/mr_rajendra_1439">
+            <Link href="https://www.instagram.com/mr_rajendra_1439">
               <p>
                 <strong>@mr_rajendra_1439</strong>
               </p>
-            </a>
+            </Link>
             <div className="voteBtn">
               <button onClick={handleOnclick}>VOTE</button>
             </div>
@@ -192,11 +192,11 @@ const Voteme = () => {
               </strong>
             </h4>
             <img src="/isha.jpeg" alt="" />
-            <a href="https://www.instagram.com/official_isha____">
+            <Link href="https://www.instagram.com/official_isha____">
               <p>
                 <strong>@official_isha____</strong>
               </p>
-            </a>
+            </Link>
             <div className="voteBtn">
               <button onClick={handleOnclick}>VOTE</button>
             </div>
