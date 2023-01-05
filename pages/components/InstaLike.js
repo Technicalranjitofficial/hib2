@@ -1,4 +1,4 @@
-import { Head } from 'next/document';
+
 import Link from 'next/link';
 import React, { useState } from 'react'
 import Header from './Header';
@@ -47,14 +47,14 @@ const InstaLike = () => {
   
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary nav-ts">
         <div className="container-fluid">
-          <a className="navbar-brand fw-bold" href="/">
+          <Link className="navbar-brand fw-bold" href="/">
             <img
               src="https://socialfollow.co/wp-content/uploads/2022/11/logo.svg"
               alt=""
               width="400"
               height="30"
             />
-          </a>
+          </Link>
           <button
             className="navbar-toggler d-none"
             type="button"
@@ -72,20 +72,20 @@ const InstaLike = () => {
           >
             <ul className="navbar-nav mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
+                <Link className="nav-link active" aria-current="page" href="/">
                   HOME
-                </a>
+                </Link>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link active" href="/autoliker">
+                <Link className="nav-link active" href="/autoliker">
                   INSTAGRAM AUTOLIKER
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" href="/">
+                <Link className="nav-link active" href="/">
                   INSTAGRAM AUTO FOLLOWERS
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
