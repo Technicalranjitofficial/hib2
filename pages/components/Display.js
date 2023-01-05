@@ -60,7 +60,7 @@ const Display = () => {
 
       <h1 className="titl">HIB DATABASE</h1>
 
-      {sort.map((d,index) => {
+      {sort.length>0? sort.map((d,index) => {
         var c = d.date;
         var e = new Date(c);
 
@@ -114,7 +114,7 @@ const Display = () => {
             </div>
           </div>
         );
-      })}
+      }):<h1>Loading...</h1>}
     </>
   );
 };
