@@ -214,12 +214,12 @@ const InstaLike = () => {
               </h2>
             </center>
             <center>
-              <a href="/autoliker" className="btn btn-primary btn-lg mt-2 mr-3">
+              <Link href="/autoliker" className="btn btn-primary btn-lg mt-2 mr-3">
                 INSTAGRAM AUTOLIKER
-              </a>
-              <a href="/" className="btn btn-success btn-lg mt-2">
+              </Link>
+              <Link href="/" className="btn btn-success btn-lg mt-2">
                UNLIMITED FOLLOWERS
-              </a>
+              </Link>
             </center>
           </div>
         </div>
@@ -318,7 +318,7 @@ const InstaLike = () => {
             <div className="card-body">
               <h2 className="card-title fs20">How We Make "FREE" Possible?</h2>
               <p className="card-text fs15">
-                We made a platform to share likes and followers. To get likes
+                We made Link platform to share likes and followers. To get likes
                 and followers, you need credits. And to earn credits every user
                 likes and follow other users on site. Using those credits you
                 can boost your profile, by increasing followers and likes on
