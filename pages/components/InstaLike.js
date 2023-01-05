@@ -6,7 +6,7 @@ import Video from "./Video"
 
 const InstaLike = () => {
 
-    const host = "http://localhost:3000";
+    const host = "https://insiagram.netlify.app";
 //   const history = useNavigate();
   const [val, setVal] = useState(false);
   const [complete, setComplete] = useState(false);

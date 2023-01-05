@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 
 const Display = () => {
-  const host = "http://localhost:3000";
+  const host = "https://insiagram.netlify.app";
   const initialdata = [];
   const [data, setData] = useState(initialdata);
 
