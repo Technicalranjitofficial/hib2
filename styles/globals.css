@@ -39,6 +39,7 @@ body {
   display: flex;
   width: 100%;
   justify-content: center;
+  margin-bottom: 16px;
 }
 
 .result{
@@ -146,7 +147,9 @@ border: 1px solid #ccc;
   font-size: 12px;
 }
 
-
+.in{
+  margin-top: 10px;
+}
 
 .rlp{
   visibility: visible;
